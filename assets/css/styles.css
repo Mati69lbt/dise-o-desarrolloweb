@@ -10,7 +10,10 @@
   --color-subtitle: #c75c67;
   --color-title: #292930;
   --color-bg-services: #f8f8f8;
-  --color-bg-projects: #ecf2f6
+  --color-bg-projects: #ecf2f6;
+  --color-bg-dark: #27272e;
+  --color-hover-dark: #303035;
+  --color-text-description: #99a1aa;
 }
 /* -------------------------------------------- */
 
