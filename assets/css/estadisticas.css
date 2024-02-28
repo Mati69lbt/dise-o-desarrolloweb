@@ -29,7 +29,11 @@
 }
 
 .stats__description {
- 
+  display: inline-block;
+  width: 45%;
+  font-size: 2rem;
+  color: var(--color-text-description);
+  margin-bottom: 4rem;
 }
 
 .stats__progress {
