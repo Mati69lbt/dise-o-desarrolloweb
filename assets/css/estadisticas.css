@@ -29,11 +29,7 @@
 }
 
 .stats__description {
-  font-size: 2rem;
-  width: 50%;
-  margin: auto 0;
-  margin-bottom: 4rem;
-  color: var(--color-text-description);
+ 
 }
 
 .stats__progress {

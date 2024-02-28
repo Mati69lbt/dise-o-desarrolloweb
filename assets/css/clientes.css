@@ -1,0 +1,75 @@
+/* Estilos para Clientes */
+
+.layout__clients {
+  position: relative;
+  background-color: var(--color-bg-dark);
+  padding: 12rem 10rem;
+  z-index: 1;
+}
+
+.clients__container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.clients__header {
+  text-align: left;
+}
+
+.clients__subtitle {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--color-subtitle);
+  margin-bottom: 1.5rem;
+}
+
+.clients__title {
+  font-size: 6.4rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--color-secondary);
+  margin-bottom: 3rem;
+  width: 50%;
+}
+
+.clients__description {
+  display: inline-block;
+  font-size: 1.8rem;
+  width: 38%;
+  margin: auto 0;
+  margin-bottom: 4rem;
+  color: var(--color-text-description);
+  margin-bottom: 4rem;
+}
+
+.clients__logos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 0 auto;
+}
+
+.clients__item {
+  width: calc(25% - 3rem);
+}
+
+.clients__img {
+  filter: grayscale(100%);
+  opacity: 0.3;
+  transition: all 300ms ease-in-out;
+}
+
+.clients__item:hover > .clients__img {
+  filter: grayscale(0);
+  opacity: 1;
+  cursor: pointer;
+}
+
+.client-shapes__item {
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  top: 16%;
+  right: 0%;
+}
