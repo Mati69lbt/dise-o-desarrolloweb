@@ -1,3 +1,6 @@
+/* cSpell:ignore movile */
+/* cSpell:ignore backshapes */
+
 .layout__contact {
   position: relative;
   z-index: 1;
@@ -104,14 +107,87 @@
 }
 .backshapes--shape2 {
   top: 18%;
-  left:18%;
+  left: 18%;
   opacity: 0.5;
-  animation
 }
 
 .backshapes--shape3 {
-  top: 42%;
-  right: 40%;
+  top: 10%;
+  right: 10%;
 }
+
 .backshapes--shape4 {
+  bottom: 50%;
+  left: 10%;
+  animation: elipsis 10s infinite;
+}
+@keyframes elipsis {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translate(100px, 25px);
+  }
+  50% {
+    transform: translate(500px, -25px);
+  }
+  75% {
+    transform: translate(-50px, 250px);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+.backshapes--shape5 {
+  top: 30%;
+  right: 17%;
+  animation: star__motion 5s infinite;
+}
+@keyframes star__motion {
+  0% {
+    transform: translateX(0px) translateY(0);
+  }
+
+  20% {
+    transform: translateX(100px) translateY(150px);
+  }
+  40% {
+    transform: translateX(200px) translateY(0px);
+  }
+
+  60% {
+    transform: translateX(-300px) translateY(150px);
+  }
+
+  80% {
+    transform: translateX(-400px) translateY(0px);
+  }
+
+  100% {
+    transform: translateX(0px) translateY(0);
+  }
+}
+
+.backshapes--shape6 {
+  top: 25%;
+  left: 30%;
+}
+
+.backshapes--shape7 {
+  top: 10%;
+  right: 50%;
+  animation: line__move 5s infinite;
+}
+
+@keyframes line__move {
+  0%,
+  100% {
+    transform: translateX(0px) translateY(0);
+  }
+  33% {
+    transform: translateX(500px) translateY(0);
+  }
+  66% {
+    transform: translateX(-500px) translateY(0);
+  }
 }
