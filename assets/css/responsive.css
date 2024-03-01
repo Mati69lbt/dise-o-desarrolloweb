@@ -1,0 +1,25 @@
+/* Responsive */
+
+@media (max-width: 480px) {
+  .layout {
+    width: 90%;
+  }
+  .projects__all {
+    justify-content: center;
+  }
+  .projects__project {
+    flex-basis: 45%;
+  }
+  .layout__reviews {
+    margin: 0 5rem;
+  }
+  .layout__news {
+    margin-left: 5rem;
+  }
+  .footer__social {
+    justify-content: space-evenly;
+  }
+  .social__img {
+    font-size: 4rem;
+  }
+}
