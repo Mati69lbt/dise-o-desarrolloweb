@@ -22,4 +22,42 @@
   .social__img {
     font-size: 4rem;
   }
+
+  .footer__main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer__fleft {
+    margin-right: 2rem;
+  }
+  .fleft__container {
+    display: block;
+    text-align: center;
+  }
+  .fleft__subtitle {
+    display: inline-block;
+    width: 70%;
+  }
+  .fleft__form {
+    display: block;
+    margin: 0 auto;
+  }
+  .footer__widget {
+    flex-basis: 33%;
+    margin: 0 10rem;
+  }
+  .widget__title {
+    font-size: 3rem;
+  }
+
+  .footer_bottom {
+    text-align: center;
+    margin-right: 5rem;
+  }
+
+  .flinks__item--separator::after {
+    right: 26%;
+  }
 }
