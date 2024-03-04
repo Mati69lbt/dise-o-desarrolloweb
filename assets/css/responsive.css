@@ -1,63 +1,228 @@
 /* Responsive */
+@media (max-width: 1060px) {
+  .layout {
+    width: 100%;
+    min-width: auto;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+
+  .layout__banner {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 
 @media (max-width: 480px) {
   .layout {
-    width: 90%;
+    width: 100%;
   }
+
+  .menu__navbar {
+    flex-direction: column;
+  }
+
+  .nav__list {
+    flex-wrap: wrap;
+  }
+  .nav__title {
+    margin-right: -2rem;
+  }
+
+  .layout__banner {
+    width: 95%;
+    margin: 0 auto;
+    height: 8rem;
+    padding-bottom: 10rem;
+  }
+
+  .banner__title {
+    font-size: 4.8rem;
+  }
+
+  .banner__btn {
+    padding: 1.8rem 3.5rem;
+    font-size: 1.3rem;
+  }
+
+  .layout__services {
+    margin: 3rem;
+  }
+
+  .services__title {
+    font-size: 4.8rem;
+  }
+
+  .services__list {
+    flex-direction: column;
+  }
+  .services__service {
+    width: auto;
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+  }
+  .services__service--bottom {
+    margin-top: 2rem;
+  }
+  .services__service--middle {
+    margin-top: 2rem;
+  }
+  .services__service--top {
+    margin-top: 2rem;
+  }
+
+  .layout__projects {
+    padding: 3rem;
+  }
+  .projects__title {
+    font-size: 4.8rem;
+  }
+
+  .projects__categories {
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-bottom: 3rem;
+  }
+
   .projects__all {
     justify-content: center;
   }
   .projects__project {
-    flex-basis: 45%;
-  }
-  .layout__reviews {
-    margin: 0 5rem;
-  }
-  .layout__news {
-    margin-left: 5rem;
-  }
-  .footer__social {
-    justify-content: space-evenly;
-  }
-  .social__img {
-    font-size: 4rem;
+    flex-basis: 90%;
   }
 
-  .footer__main {
+  .project__title {
+    font-size: 2.9rem;
+  }
+  .project__content {
+    padding: 2rem 3rem;
+  }
+
+  .layout__stats {
+    padding: 3rem;
+  }
+  .stats__title {
+    font-size: 4.8rem;
+  }
+  .stats__description {
+    width: 88%;
+  }
+
+  .stats__progress {
+    flex-wrap: wrap;
+  }
+  .stats__stat {
+    width: 40%;
+    text-align: center;
+    padding: 2rem 2rem;
+  }
+  .reviews__header {
+    margin-bottom: 0rem;
+  }
+  .layout__reviews {
+    padding: 3rem;
+  }
+  .reviews__title {
+    font-size: 4.8rem;
+  }
+
+  .reviews__description {
+    width: 90%;
+  }
+  .reviews__container {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
-  .footer__fleft {
-    margin-right: 2rem;
+  .reviews__review {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
-  .fleft__container {
-    display: block;
-    text-align: center;
+  .review__company {
+    margin-bottom: 1rem;
+  }
+  .review__description {
+    margin-bottom: 1rem;
+  }
+  .layout__clients {
+    padding: 3rem;
+  }
+  .clients__title {
+    font-size: 4.8rem;
+    width: 100%;
+  }
+
+  .clients__description {
+    width: 100%;
+  }
+  .layout__news {
+    padding: 3rem;
+  }
+  .news__title {
+    font-size: 4.8rem;
+  }
+
+  .news__list {
+    flex-direction: column;
+  }
+  .news__new {
+    flex-direction: column;
+  }
+  .new__img {
+    max-width: 150px;
+  }
+
+  .layout__contact {
+    padding: 3rem;
+    width: 100%;
+    min-width: auto;
+  }
+  .contact__title {
+    font-size: 4.8rem;
+  }
+  .contact__images {
+    width: 90%;
+  }
+
+  .footer__container {
+    max-width: 100%;
+  }
+  .footer__top {
+    padding-bottom: 1rem;
+  }
+  .footer__social {
+    gap: 6rem;
+    justify-content: space-evenly;
+    margin: 2rem;
+  }
+  .footer__main {
+    padding: 3rem;
+  }
+  .fleft__title {
+    font-size: 4.8rem;
   }
   .fleft__subtitle {
     display: inline-block;
-    width: 70%;
+    width: 80%;
   }
-  .fleft__form {
-    display: block;
-    margin: 0 auto;
+  .footer__widget:first-child {
+    flex-basis: 40%;
+  }
+  .footer__fright {
+    flex-basis: 90%;
+    gap: 2rem;
+    justify-content: center;
   }
   .footer__widget {
-    flex-basis: 33%;
-    margin: 0 10rem;
+    margin-bottom: 2rem;
   }
-  .widget__title {
-    font-size: 3rem;
-  }
-
   .footer_bottom {
-    text-align: center;
-    margin-right: 5rem;
+    font-size: 1rem;
+    flex-direction: column;
   }
-
-  .flinks__item--separator::after {
-    right: 26%;
+  .copyright__text {
+    margin: 2rem;
   }
+  
+.footer__flinks {
+  margin-right: 2rem;
+}
 }
